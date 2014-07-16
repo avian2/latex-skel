@@ -1,0 +1,8 @@
+figures/.ipynb_checkpoints
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf
+*.d

@@ -1,0 +1,32 @@
+This repository contains a minimal LaTeX setup that uses Make to build a PDF
+file. You can find many like it on the Internet, but this one is mine.
+
+Adjust TITLE variable on top of Makefile to fit the title of the document and
+name of the .tex file.
+
+To build the document:
+
+    $ make
+
+To clean-up the directory:
+
+    $ make clean
+
+
+
+Acknowledgements
+================
+
+This borrows some ideas from The Ultimate Latex Makefile:
+
+http://legacy.spa.aalto.fi/u/mairas/UltimateLatexMakefile/
+
+
+
+License
+=======
+
+Created by Tomaz Solc <tomaz.solc@tablix.org>. Placed into the public domain.
+
+You can copy, modify and distribute, even for commercial purposes, all without
+asking permission.
