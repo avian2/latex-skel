@@ -19,7 +19,4 @@ while (<IN>) {
 	while (/^[^%]*\\includegraphics(?:\[.*?\])?\{(.+?)\}/g) {
 		print OUT "$pdf: $1\n";
 	}
-	while (/^[^%]*\\bibliography\{(.*?)\}/g) {
-		print OUT "$pdf: $1.bib\n";
-	}
 }
