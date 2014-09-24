@@ -8,6 +8,11 @@ To build the document:
 
     $ make
 
+To make a smaller PDF with reduced DPI for images (convenient for emails or
+publishing on the web):
+
+    $ make web
+
 To clean-up the directory:
 
     $ make clean
