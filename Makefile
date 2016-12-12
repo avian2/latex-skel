@@ -2,7 +2,7 @@ TITLE = foo
 
 RERUN = "(There were undefined references|Rerun to get (cross-references|the bars) right)"
 
-LATEX = pdflatex --shell-escape -interaction=nonstopmode
+LATEX = pdflatex -file-line-error -interaction=nonstopmode
 
 all: $(TITLE).pdf
 
